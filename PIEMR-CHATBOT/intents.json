@@ -1,0 +1,654 @@
+{
+        "intents": [
+                {
+                        "tag": "branch",
+                        "patterns": [
+                                "Tell me all branch which are available in PIEMR Indore ",
+                                "how many courses provide prestige"
+                        ],
+                        "responses": [
+                                "There are seven branches are available in prestige Engineering for B.Tech programme AI & DS, Automation & Robotics, CE, CSE, EC, EE, ME",
+                                "List of Branches for B.Tech :1) AI & DS  2) Automation & Robotics 3) CE 4)  CSE 5) EC 6) EE 7) ME",
+                                "There are Seven Branches are available in PIEMR for B.Tech",
+                                "We have seven branches in PIEMR indore for B.Tech like AI & DS, Automation & Robotics, CE, CSE, EC, EE, ME"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "better branch",
+                        "patterns": [
+                                "Which available branch is better for me"
+                        ],
+                        "responses": [
+                                " All branches have equal importance: Choice depends on aptitude of student.",
+                                "it totally depends on your aptitude and interest."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "CSE/AI & DS",
+                        "patterns": [
+                                "Tell me alteast 5 benfit of CSE/AI & DS",
+                                "benefits of CS"
+                        ],
+                        "responses": [
+                                "There is vast scope after taking CSE or AI & DS branches suppose If you want to become Computer Software Engineer, Software/Mobile Apps/System Developer, System Integrator, Data Analytics Professional, AI Expert and wish to roam around the world then you should choose CSE.",
+                                "There are so many benefits of Choosing CSE or AI & DS Branch like you may  become Computer Software Engineer, Software/Mobile Apps/System Developer, System Integrator, Data Analytics Professional, AI Expert and also if you wish to roam around the world then you should choose CSE.",
+                                " If you want to become Computer Software Engineer, Software/Mobile Apps/System Developer, System Integrator, Data Analytics Professional, AI Expert and wish to roam around the world then you should choose CSE.",
+                                "1) you may  become Computer Software Engineer. 2) Software/Mobile Apps/System Developer 3) System Integrator. 4)Data Analytics Professional 5)AI Expert and also if you wish to roam around the world then you should choose CSE."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "ECE",
+                        "patterns": [
+                                "If I will choose EC, what wull be the benfits ?",
+                                "benefits of EC"
+                        ],
+                        "responses": [
+                                "There is vast scope after taking ECE If you want to become Engineer in the field of IoT, Robotics, Sensor and Transistor, Microwave and Radar, Digital Electronics, Embedded System, VLSI & Nano Engineering, Mobile and Wireless Technologies and Signal and Image Processing etc. you should choose EC.",
+                                "There are so many benefits of Choosing ECE branch like you may become Engineer in the field of IoT, Robotics, Sensor and Transistor, Microwave and Radar, Digital Electronics, Embedded System, VLSI & Nano Engineering, Mobile and Wireless Technologies and Signal and Image Processing etc. you should choose EC.",
+                                "If you want to become Engineer in the field of IoT, Robotics, Sensor and Transistor, Microwave and Radar, Digital Electronics, Embedded System, VLSI & Nano Engineering, Mobile and Wireless Technologies and Signal and Image Processing etc. you should choose EC.",
+                                "there are so many oppertunities are available if you choose ECE branch like you may become Engineer in the field of IoT, Robotics, Sensor and Transistor, Microwave and Radar, Digital Electronics, Embedded System, VLSI & Nano Engineering, Mobile and Wireless Technologies and Signal and Image Processing etc. ",
+                                "If you want to become Engineer in the field of IoT, Robotics, Sensor and Transistor, Microwave and Radar, Digital Electronics, Embedded System, VLSI & Nano Engineering, Mobile and Wireless Technologies and Signal and Image Processing etc. you should choose EC.",
+                                "if you choose EC then you  have lot of benifits like you may become Engineer in the field of IoT, Robotics, Sensor and Transistor, Microwave and Radar, Digital Electronics, Embedded System, VLSI & Nano Engineering, Mobile and Wireless Technologies and Signal and Image Processing etc. you should choose EC."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "ME Robotics",
+                        "patterns": [
+                                "If I will choose ME/Automotion & Robotics, what will be the benfits ?",
+                                "benefits of ME"
+                        ],
+                        "responses": [
+                                "There is vast scope after taking  ME/Automotion & Robotics If you want to become Engineer in the field of Industry 4.0, Aerospace, Marine Engineering, Manufacturing Industry, Power Plant, Automobiles, Mechatronics, Automation & Robotics etc. then you should choose Mechanical Engineering or Automation & Robotics. One must be ready to learn computer programming as well as electronics essentials.",
+                                "There are so many benefits of Choosing ME/Automotion & Robotics branch like you  may become Engineer in the field of Industry 4.0, Aerospace, Marine Engineering, Manufacturing Industry, Power Plant, Automobiles, Mechatronics, Automation & Robotics etc. then you should choose Mechanical Engineering or Automation & Robotics. One must be ready to learn computer programming as well as electronics essentials.",
+                                "If you want to become Engineer in the field of Industry 4.0, Aerospace, Marine Engineering, Manufacturing Industry, Power Plant, Automobiles, Mechatronics, Automation & Robotics etc. then you should choose Mechanical Engineering or Automation & Robotics. ",
+                                "there are so many oppertunities are available if you choose   ME/Automotion & Robotics branch , you  may become Engineer in the field of Industry 4.0, Aerospace, Marine Engineering, Manufacturing Industry, Power Plant, Automobiles, Mechatronics, Automation & Robotics etc. then you should choose Mechanical Engineering or Automation & Robotics. One must be ready to learn computer programming as well as electronics essentials.",
+                                "If you want to become Engineer in the field of Industry 4.0, Aerospace, Marine Engineering, Manufacturing Industry, Power Plant, Automobiles, Mechatronics, Automation & Robotics etc. then you may go for Mechanical Engineering or Automation & Robotics. ",
+                                "There are so many benefits of Choosing ME/Automotion & Robotics branch like you  may become Engineer in the field of Industry 4.0, Aerospace, Marine Engineering, Manufacturing Industry, Power Plant, Automobiles, Mechatronics, Automation & Robotics etc. then you should choose Mechanical Engineering or Automation & Robotics. One must be ready to learn computer programming as well as electronics essentials."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "CE",
+                        "patterns": [
+                                "If I will choose CE, what will be the benfits ?",
+                                "benefits of CE"
+                        ],
+                        "responses": [
+                                "Civil Engineering has a vast scope in 21st century. If you want to become an engineer in the field of Construction, Environmental, Geotechnical, Material, Structural, Urban Planning, Water resource etc. then you should choose CE.",
+                                "There are so many benefits of Choosing CE branch like you may become an engineer in the field of Construction, Environmental, Geotechnical, Material, Structural, Urban Planning, Water resource etc.",
+                                "If you want to become an engineer in the field of Construction, Environmental, Geotechnical, Material, Structural, Urban Planning, Water resource etc. then you should choose CE.",
+                                "there are so many oppertunities are available if you choose CE branch by taking this branch you may become an engineer in the field of Construction, Environmental, Geotechnical, Material, Structural, Urban Planning, Water resource etc.",
+                                "If you want to become an engineer in the field of Construction, Environmental, Geotechnical, Material, Structural, Urban Planning, Water resource etc. then you should go for CE.",
+                                "There are so many benefits of Choosing CE branch like you may become an engineer in the field of Construction, Environmental, Geotechnical, Material, Structural, Urban Planning, Water resource etc."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "benefits",
+                        "patterns": [
+                                "What benfits does Perstige is providing ?",
+                                "benefits which prestige provide",
+                                "what are the facilities provide prestige"
+                        ],
+                        "responses": [
+                                "presitige is better than other  college because • Prestige Group is Strong educational group, existing since 25 years, with vast experience of running various colleges in Indore, Dewas and Gwalior.",
+                                "• AICTE Approved/ RGPV Affiliated/ NBA Accredited for CSE & ECE In 2020 CE & EE & ME applying for NBA accreditation Participated in NIRF & ARIIA Ranking of MHRD, Govt. of India. ",
+                                "• Experience qualified faculty, Staff, Strong focus on teaching, skill development & All round development of student. Many faculty and Ph.D. and qualified from IIT/IISc or reputed universities.",
+                                "• Faculty are also involved in research and consultancy. Advance Laboratories and Center of Excellences are existing.",
+                                "• Very good Placement record and support for Entrepreneurship.",
+                                "yes defintely presitige is better than other  college because • Prestige Group is Strong educational group, existing since 25 years, with vast experience of running various colleges in Indore, Dewas and Gwalior."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "better college",
+                        "patterns": [
+                                "Tell me better college to enrolled for ?"
+                        ],
+                        "responses": [
+                                "Any Good College should have 3F- Faculty, Facilities & Forums"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "intakes",
+                        "patterns": [
+                                "Show me the list of seats available for B.Tech",
+                                "Show me the list of seats available for Diploma",
+                                "how many seats are available",
+                                "how many intakes"
+                        ],
+                        "responses": [
+                                "Total 540 seats are in B.Tech",
+                                "Available seats in B.Tech (Automation & Robotics – 60, AI & DS – 60, CE- 60, CSE-180, EC- 60, EE-60, ME-60)",
+                                "Available seats in diploma ME-60",
+                                "Total 60 students can get admission in Diploma per year"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "engineering",
+                        "patterns": [
+                                "why engineering?"
+                        ],
+                        "responses": [
+                                "If you enjoy problem solving for industry or society, you have interests in Mathematics and Science, your dream is to design Machine or System, your aim is to work in a technical enterprise than definitely you should join Engineering.",
+                                "yes definitely ,If you enjoy problem solving for industry or society, you have interests in Mathematics and Science, your dream is to design Machine or System, your aim is to work in a technical enterprise than definitely you should join Engineering.",
+                                "there are lots of benefits of doing engineering some of that are Job Satisfaction,Variety of Career Opportunities,Potential to Benefit Society,Challenging Work,Creative Thinking,Technological and Scientific Discovery etc.."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "apply",
+                        "patterns": [
+                                "How can I apply for B Tech ?",
+                                "How can I apply for Diploma ?"
+                        ],
+                        "responses": [
+                                "Steps are: 1. Registration, 2. Document Verification,3. Choice Filling, 4. Allotment , 5. Reporting to Institute. All seats are allotted by DTE online counseling",
+                                "Admission process follows following steps:  1. Registration, 2. Document Verification,3. Choice Filling, 4. Allotment , 5. Reporting to Institute. All seats are allotted by DTE online counseling",
+                                "Entry Procedure are: 1. Registration, 2. Document Verification,3. Choice Filling, 4. Allotment , 5. Reporting to Institute. All seats are allotted by DTE online counseling",
+                                "Entry Process are: 1. Registration, 2. Document Verification,3. Choice Filling, 4. Allotment , 5. Reporting to Institute. All seats are allotted by DTE online counseling",
+                                "Enrollment process are: 1. Registration, 2. Document Verification,3. Choice Filling, 4. Allotment , 5. Reporting to Institute. All seats are allotted by DTE online counseling",
+                                "You can go through the DTE Counseling Website and follow the following steps: 1. Registration, 2. Document Verification,3. Choice Filling, 4. Allotment , 5. Reporting to Institute. "
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "requirement",
+                        "patterns": [
+                                "What's qualification required for  M Tech ?,What's qualification required for  B.Tech ?",
+                                "what are the requirements for admission",
+                                "Which of the documents are required at the time of enrollment."
+                        ],
+                        "responses": [
+                                "Gate Score Card  & B.Tech Degree",
+                                "JEE-Main & 12th Class passed with PCM Marks must be 120 for SC/ST, OBC & 135 for others required"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "scholarship",
+                        "patterns": [
+                                "Did Perstige offers any Scholarship ?"
+                        ],
+                        "responses": [
+                                "Yes, there are two scholarship, one from government and other from Prestige Education Foundation",
+                                "For OBC Income <=3 Lac and For SC/ST Income <=6 Lac",
+                                "Yes, there are two scholarship, one from government and other from Prestige Education Foundation",
+                                "Yes, Chhavi Jain Scholarship for Meritorious Students"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "bus",
+                        "patterns": [
+                                "What is semester wise bus fee?",
+                                "What is bus fee?",
+                                "Do Prestige have bus facilites outside the Indore?"
+                        ],
+                        "responses": [
+                                "Yes, Available",
+                                "For Indore – 10000/- per year For Dewas, Mhow, Pithampur – 12000/- per year",
+                                "You have to pay yearly Fee. For Indore – 10000/- per year + For Dewas, Mhow, Pithampur – 12000/- per year"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "far distance",
+                        "patterns": [
+                                "How much far is Prestige college from Geeta Bhavan.",
+                                "where is the location of college"
+                        ],
+                        "responses": [
+                                "Vijay Nagar in heart of the city",
+                                "Scheme No. 74-C, Sector-D, Vijay Nagar, Indore",
+                                "Near About 4 to 5 Km"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "fees",
+                        "patterns": [
+                                "What is the semester wise fee for M. Tech ?",
+                                "What is the semester wise fee for B. Tech",
+                                "fees structure of B.Tech",
+                                "fees structure of M.Tech",
+                                "B.Tech Fees",
+                                "M.tech Fees"
+                        ],
+                        "responses": [
+                                "M.Tech(CAD/CAM)- 70000/- per year",
+                                "*** Likely to increase as per AFRC Govt. of MP",
+                                "M.Tech(CAD/CAM)- 70000/- per year",
+                                "*** Likely to increase as per AFRC Govt. of MP",
+                                "",
+                                "140000/- for Two Year *** Likely to increase as per AFRC Govt. of MP",
+                                "M.Tech(CAD/CAM)- 70000/- per year",
+                                "*** Likely to increase as per AFRC Govt. of MP",
+                                "",
+                                "70000/- Per Year *** Likely to increase as per AFRC Govt. of MP",
+                                "35000/- Per Sem *** Likely to increase as per AFRC Govt. of MP",
+                                "For B.Tech- (CSE, AI&DS, Robotics) - 72000/- per year, ",
+                                "(CE, EC, EE, ME) - 64000/- per year",
+                                "*** Likely to increase as per AFRC Govt. of MP",
+                                "For B.Tech- (CSE, AI&DS, Robotics) - 72000/- per year, ",
+                                "(CE, EC, EE, ME) - 64000/- per year",
+                                "*** Likely to increase as per AFRC Govt. of MP",
+                                "For B.Tech- (CSE, AI&DS, Robotics) - 288000/- for 4 Year, ",
+                                "(CE, EC, EE, ME) - 256000/- for 4 Year",
+                                "*** Likely to increase as per AFRC Govt. of MP",
+                                "For B.Tech- (CSE, AI&DS, Robotics) - 72000/- per year, ",
+                                "(CE, EC, EE, ME) - 64000/- per year",
+                                "*** Likely to increase as per AFRC Govt. of MP",
+                                "For B.Tech- (CSE, AI&DS, Robotics) - 72000/- per year, ",
+                                "(CE, EC, EE, ME) - 64000/- per year",
+                                "*** Likely to increase as per AFRC Govt. of MP",
+                                "For B.Tech- (CSE, AI&DS, Robotics) - 36000/- per Sem, ",
+                                "(CE, EC, EE, ME) - 32000/- per Sem",
+                                "*** Likely to increase as per AFRC Govt. of MP"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "hostel",
+                        "patterns": [
+                                "How far is the  College from Hostel.",
+                                "hostel available",
+                                "hostel facality"
+                        ],
+                        "responses": [
+                                "PIEMR do not have Hostel. Many of hostels are available nearby institute and in Indore at convenient locations",
+                                "Walking Distance"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "canteen",
+                        "patterns": [
+                                "Canteen facility is availbe in prestige?",
+                                "canteen is available",
+                                "college canteen"
+                        ],
+                        "responses": [
+                                "Canteen facility is available.",
+                                "Canteen facility is available."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "lab",
+                        "patterns": [
+                                "Is there any lab facilities ?",
+                                "labs of college",
+                                "laboratories",
+                                "laboratory"
+                        ],
+                        "responses": [
+                                "• All departments are having very well equipped laboratories for regular academics as well as advance Labs for Advance technology learning, Projects & Research.",
+                                "• Data Analytics, Artificial Intelligence & Machine Learning, Prototyping (CNC Machine, 3D Printers),",
+                                "• Coming up – (Under Discussion)",
+                                "Robotics Center of Excellence (Tata Motors) Industry 4.0 Center of Excellence (Siemens) AI-ML Center of excellence (Find-ability-science)",
+                                "Yes",
+                                "• All departments are having very well equipped laboratories for regular academics as well as advance Labs for Advance technology learning, Projects & Research.",
+                                "• Data Analytics, Artificial Intelligence & Machine Learning, Prototyping (CNC Machine, 3D Printers),",
+                                "• Coming up – (Under Discussion)",
+                                "Robotics Center of Excellence (Tata Motors) Industry 4.0 Center of Excellence (Siemens) AI-ML Center of excellence (Find-ability-science)",
+                                "Yes",
+                                "As per guideline of RGPV & AICTE, All the labs are Available for differne Branches ",
+                                "• All departments are having very well equipped laboratories for regular academics as well as advance Labs for Advance technology learning, Projects & Research.",
+                                "• Data Analytics, Artificial Intelligence & Machine Learning, Prototyping (CNC Machine, 3D Printers),",
+                                "• Coming up – (Under Discussion)",
+                                "Robotics Center of Excellence (Tata Motors) Industry 4.0 Center of Excellence (Siemens) AI-ML Center of excellence (Find-ability-science)"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "raging",
+                        "patterns": [
+                                "Do Prestige have any Anti-Ragging commitee?",
+                                "antiragging"
+                        ],
+                        "responses": [
+                                "There is no ragging in campus to restrict such activity we have:  • Management, Faculty & Staff committed to curb ragging. Very Strictly following Govt. Norms,",
+                                "• Anti-Ragging Committee & Anti-Ragging Squad are always alert and PIEMR take extra effort for Ragging Free Campus.,",
+                                "• All senior students are cooperative.,",
+                                "• Action as per Govt. rules,",
+                                "Yes,",
+                                "Yes,",
+                                "Anti-Ragging Committee & Anti-Ragging Squad are always alert and PIEMR take extra effort for Ragging Free Campus,"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "sports",
+                        "patterns": [
+                                "Do Prestige have any sport commitee ?",
+                                "sports activity"
+                        ],
+                        "responses": [
+                                "Yes, Football, Volleyball, T.T., Basketball, Cricket & Indoor games. Students encourage participating in sports. College organizes various Tournaments at Zonal and State Level. PIEMR brought many laurels at RGPV university level and some Players are representing University, State & National Level;"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "activty",
+                        "patterns": [
+                                "List down all the activites which are conducted in Prestige ?",
+                                "extra-curiculum activities",
+                                "activities"
+                        ],
+                        "responses": [
+                                "Extra Activities are: Seminars, GD, Guest Lecture, Workshops, Annual Function and Special Activities, All these are organized irrespective of Departments, on regular basis. Award Winner- ISTE Student Chapter, NSS Camp",
+                                "Yes"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "dress",
+                        "patterns": [
+                                "Tell the dress code which is followed in Prestige college",
+                                "formals attire",
+                                "dress code"
+                        ],
+                        "responses": [
+                                "Yes, on special occasions Formal with PIEMR Blazer is compulsory. For Regular classes there is no Uniform as such",
+                                "On special occasions Formal with PIEMR Blazer is compulsory. For Regular classes there is no Uniform as such"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "visit",
+                        "patterns": [
+                                "DO prestige have college visit facilities ?",
+                                "college visit"
+                        ],
+                        "responses": [
+                                "On request Pick up may be provided upto 5 KM but one can reach PIEMR very easily as public transport & taxi services are available in city",
+                                "Transport Facility, Guide for College Visit",
+                                "Yes"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "timing",
+                        "patterns": [
+                                "Tell me college duration time?",
+                                "college timing",
+                                "college duration"
+                        ],
+                        "responses": [
+                                "9:00 am to 4:30 pm (Monday to Friday) ",
+                                "9:00 am to 1:00 pm (Saturday) RGPV University calendar followed for holidays"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "enquiry",
+                        "patterns": [
+                                "Contact number for enquiry",
+                                "contact number",
+                                "number",
+                                "any enquiry"
+                        ],
+                        "responses": [
+                                "Contact Person : Prof. Rajeev Raghuvanshi : 8103129701 ",
+                                "Contact Person : Prof. Md Ilyas : 9827122226"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "PGDM",
+                        "patterns": [
+                                "Want to know about PIEMR PGDMRBA?",
+                                "PGDM courses"
+                        ],
+                        "responses": [
+                                "PIEMR PGDMRBA is a two year full time Post Graduate Diploma Management Research in Business Analytics designed to equip participants with relevant knowledge, skills and attitude to deal with ever changing business environment with confidence and clarity. ",
+                                "Business Analytics is a combination of Data Analytics, Business Intelligence and Computer Programming.",
+                                "It is the science of analysing data to find out patterns that will be helpful in developing strategies. Its usage can be found in almost every industry"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "part-time",
+                        "patterns": [
+                                "How can I apply for part-time course?",
+                                "part-time courses",
+                                "part-time"
+                        ],
+                        "responses": [
+                                "No, it is a full time program.",
+                                "There is no part time courses in Prestige",
+                                "There is no part time courses in Prestige",
+                                "Sorry, there is no part-time course available"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "aicte",
+                        "patterns": [
+                                "Is Prestige certified/registered by AICTE?",
+                                "aicte"
+                        ],
+                        "responses": [
+                                "Yes. The PIEMR PGDMRBA Program is recognized by the All India Council for Technical Education (AICTE)."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "mba diffrenet pgdmrba",
+                        "patterns": [
+                                "How MBA is differ from PIMR PGDMRBA?",
+                                "mba vs pgdmrba"
+                        ],
+                        "responses": [
+                                "It is more experiential course and industry-oriented. Only autonomous institutes having autonomy can run this course. Autonomy helps to keep curriculum as per the  Industry requirements."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "internship",
+                        "patterns": [
+                                "What all the Intership are conducted in Prestige ?",
+                                "internship provided",
+                                "Any summer Intership ?"
+                        ],
+                        "responses": [
+                                "Yes",
+                                "• PIEMR has dedicated training and placement cell which facilitates students in requisite training/grooming and suitable placement.",
+                                "• During first semester, all students go for various internships of 2-4 weeks in various events and given some live projects of Industry and Institute Level.",
+                                "• After second semester minimum 45 days internship in industry is taken care by Placement Cell. Every semester there will be minimum 2-3 certifications (National / Internationally Level). ",
+                                "• In addition students do live projects with industry, go for industrial visits etc. ",
+                                "Yes, Prestige Provides summer internships."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "campus drive",
+                        "patterns": [
+                                "How the campus drive works in Prestige ?",
+                                "want to know about campus drive",
+                                "want to know about placements"
+                        ],
+                        "responses": [
+                                "• Prestige is known for Placements. PIEMR BTech till now has Average package of 4 LPA and highest Package of 16 LPA. ",
+                                "• We have a healthy relationship with corporate who from Day 0 comes for Placement Drives. Some of our top recruiters are – ",
+                                "• TCS, Wipro, Capgemini, Ericsson, Aditya Birla, Infosys, Byjus, Impetus, Bridgestone , John Deere, Bridgestone, IBM , Videocon, Cipla ",
+                                "Every company has there own recruitment policies it vary company to company.",
+                                "Prestige is known for Placements.",
+                                "• Prestige is known for Placements. PIEMR BTech till now has Average package of 4 LPA and highest Package of 16 LPA. ",
+                                "• We have a healthy relationship with corporate who from Day 0 comes for Placement Drives. Some of our top recruiters are – ",
+                                "• TCS, Wipro, Capgemini, Ericsson, Aditya Birla, Infosys, Byjus, Impetus, Bridgestone , John Deere, Bridgestone, IBM , Videocon, Cipla ",
+                                "Every company has there own recruitment policies it vary company to company."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "enquiry",
+                        "patterns": [
+                                "Contact number for enquiry",
+                                "contact number",
+                                "number",
+                                "any enquiry"
+                        ],
+                        "responses": [
+                                "Contact Person : Prof. Rajeev Raghuvanshi : 8103129701 ",
+                                "Contact Person : Prof. Md Ilyas : 9827122226"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "prestige",
+                        "patterns": [
+                                "why prestige",
+                                "why go ahead for prestige",
+                                "why this college","want to know about prestige","want to know about college"
+                        ],
+                        "responses": [
+                                "Because prestige Engineering having some following qualities that is AICTE Approved/ RGPV Affiliated/ NBA Accredited for CSE & ECE In 2020 CE & EE & ME applying for NBA accreditation Participated in NIRF & ARIIA Ranking of MHRD, Govt. of India. Experience qualified faculty, Staff, Strong focus on teaching, skill development & All round development of student. Many faculty and Ph.D. and qualified from IIT/IISc or reputed universities.Faculty are also involved in research and consultancy. Advance Laboratories and Center of Excellences are existing.Very good Placement record and support for Entrepreneurship."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi there",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hey",
+                                "Hola",
+                                "Hello",
+                                "Good day"
+                        ],
+                        "responses": [
+                                "Hello, thanks for asking",
+                                "Good to see you again",
+                                "Hi there, how can I help?"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "Bye",
+                                "See you later",
+                                "Goodbye",
+                                "Nice chatting to you, bye",
+                                "Till next time"
+                        ],
+                        "responses": [
+                                "See you!",
+                                "Have a nice day",
+                                "Bye! Come back again soon."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "thanks",
+                        "patterns": [
+                                "Thanks",
+                                "Thank you",
+                                "That's helpful",
+                                "Awesome, thanks",
+                                "Thanks for helping me"
+                        ],
+                        "responses": [
+                                "Happy to help!",
+                                "Any time!",
+                                "My pleasure"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "noanswer",
+                        "patterns": [],
+                        "responses": [
+                                "Sorry, can't understand you",
+                                "Please give me more info",
+                                "Not sure I understand"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                }
+        ]
+}
